@@ -61,7 +61,7 @@ const SignUpInfo = ({handleShow}) => {
 
   const checkValid = () => {
     const error = {}
-    const reFullname = /^[a-zA-Z]+$/
+    const reFullname = /^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂẾưăạảấầẩẫậắằẳẵặẹẻẽềềểếỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s]+$/
     const reEmail = /\S+@\S+\.\S+/
     const rePhone = /(84|0[3|5|7|8|9])+([0-9]{8})\b/
     const rePassword = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})");
